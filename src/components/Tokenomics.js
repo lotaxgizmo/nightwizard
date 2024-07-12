@@ -15,7 +15,7 @@ import midrighttopcave from "../assets/midrighttopcave.svg"
 
 function Tokenomics() {
     return (
-        <div className='flex flex-col items-center justify-center relative'>
+        <div className='flex flex-col items-center justify-center relative mb-20'>
             <img src={tokenomics} alt="" />
 
 
