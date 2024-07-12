@@ -7,6 +7,7 @@ import Underpackage from "./components/Underpackage";
 import Welcomepackage from "./components/Welcomepackage";
 import bgmusic from './assets/bgmusic.mp3';
 import enter from './assets/enter.svg';
+import logo from './assets/logomain.svg';
 import audio from './assets/audio.png';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <div className="relative flex flex-col App overflow-hidden">
       {!isPlaying && (
         <div className="bg-black/60 backdrop-blur-xl fixed w-full h-screen flex flex-col justify-center items-center z-[60] ftop-10">
+          <img src={logo} alt="" className='w-60' />
           <img
             src={enter}
             alt="Enter"

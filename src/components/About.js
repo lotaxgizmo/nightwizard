@@ -17,8 +17,6 @@ function About() {
 
                     <br />
                     <br />
-                    <br />
-                    <br />
                     This character adds a layer of fantasy and mysticism to the narrative, fitting well within Furie’s unique artistic style that combines elements of childhood wonder with a slightly dark, surreal edge. The wizard’s presence enhances the story’s dreamlike quality, making The Night Riders a rich visual experience.
 
                     <br />
