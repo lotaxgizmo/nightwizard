@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import bgcontract from "../../assets/bgcontract.png";
 import copy from "../../assets/copy.png";
 
-// the contract address is 0x184fc9ea0252916adb22d919275434b85ab7742c
+// the contract address is 0x0EbB9d648CE65343C16327A74D2a07666C2E1d66
 
 function Contract() {
     const [copied, setCopied] = useState(false);
 
     const handleCopy = () => {
-        navigator.clipboard.writeText('0x184fc9ea0252916adb22d919275434b85ab7742c')
+        navigator.clipboard.writeText('0x0EbB9d648CE65343C16327A74D2a07666C2E1d66')
             .then(() => {
                 setCopied(true);
                 setTimeout(() => {
@@ -23,7 +23,7 @@ function Contract() {
     return (
         <div className='relative flex mb-14 justify-center items-center text-white'>
             <img src={bgcontract} alt="Background" />
-            <p className='text-sm lg:text-3xl absolute'>0x184fc9ea0252916adb22d919275434b85ab7742c</p>
+            <p className='text-sm lg:text-3xl absolute'>0x0EbB9d648CE65343C16327A74D2a07666C2E1d66</p>
             <img
                 src={copy}
                 alt="Copy"

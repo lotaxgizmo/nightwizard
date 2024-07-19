@@ -19,7 +19,7 @@ function Mainherothings() {
 
             <div className="btn flex flex-col lg:flex-row justify-between items-center lg:w-9/12 border-2d lg:-mt-60">
                 <img src={logomain} alt="" className='lg:hidden flex w-32 lg:w-60' />
-                <a href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x184fc9ea0252916adb22d919275434b85ab7742c" target="_blank" rel="noopener noreferrer">
+                <a href="https://app.uniswap.org/explore/tokens/ethereum/0x0ebb9d648ce65343c16327a74d2a07666c2e1d66" target="_blank" rel="noopener noreferrer">
                     <img src={buynow} alt="" className='w-96 p-3' />
                 </a>
                 <img src={logomain} alt="" className='hidden lg:flex' />

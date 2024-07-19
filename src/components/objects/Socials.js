@@ -20,11 +20,11 @@ function Socials() {
                     <img src={twittercircle} alt="" className='w-[70px] lg:w-auto min-w-0 max-w-none p-2' />
                 </a>
 
-                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x6d235097beb0803dddf692e9ad1d2e455c8d1309" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x5a39b6d7b4a71bd4fb5481fb6f2b615e56919d4c?t=1721352562588" target="_blank" rel="noopener noreferrer">
                     <img src={dextoolscircle} alt="" className='w-[70px] lg:w-auto min-w-0 max-w-none p-2' />
                 </a>
 
-                <a href="https://app.uniswap.org/#/swap?&chain=mainnet&use=v2&outputCurrency=0x184fc9ea0252916adb22d919275434b85ab7742c" target="_blank" rel="noopener noreferrer">
+                <a href="https://app.uniswap.org/explore/tokens/ethereum/0x0ebb9d648ce65343c16327a74d2a07666c2e1d66" target="_blank" rel="noopener noreferrer">
                     <img src={uniswaocircle} alt="" className='w-[70px] lg:w-auto min-w-0 max-w-none p-2' />
                 </a>
 
