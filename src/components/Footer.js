@@ -27,8 +27,9 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='flex items-center justify-center text-white py-2 lg:p-2 flex-col lg:flex-row relative bg-black'>
+            <div className='flex  items-center justify-center text-white py-2 lg:p-2 flex-col lg:flex-col relative bg-black'>
 
+                <p className='p-2 text-2xl text-center gill'>admin@thenightwizard.com</p>
                 <p className='p-2 text-2xl text-center'>© 2024  NIGHT WIZARD ALL RIGHT RESERVED</p>
 
             </div>
