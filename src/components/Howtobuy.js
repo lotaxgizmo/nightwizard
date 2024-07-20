@@ -13,14 +13,26 @@ function Howtobuy() {
             <img src={howtobuy} alt="" />
 
 
-            <div className="twi flex flex-col lg:flex-row justify-center items-center mx-10">
+            <div className=" lg:hidden flex twi flex-col lg:flex-row justify-center items-center mx-10">
                 <div className="flex flex-col w-full -mr-8 lg:mr-0 left">
                     <img src={metamask} alt="" className='w-[600px] mb-10 lg:mt-10 lg:mb-5 right-20' />
-                    <img src={whizz} alt="" className='w-[600px] lg:ml-20  mb-10 lg:my-5' />
+                    <img src={eth} alt="" className='w-[600px]  mb-10 lg:my-5' />
                 </div>
                 <div className="flex flex-col w-full -mr-8 lg:mr-0 right pb-60">
+                    <img src={whizz} alt="" className='w-[600px] lg:ml-20  mb-10 lg:my-5' />
+                    <img src={wallet} alt="" className='w-[600px] lg:ml-20 mb-10 lg:my-5' />
+
+                </div>
+            </div>
+
+            <div className=" hidden lg:flex twi flex-col lg:flex-row justify-center items-center mx-10">
+                <div className="flex flex-col w-full -mr-8 lg:mr-0 left">
                     <img src={eth} alt="" className='w-[600px]  mb-10 lg:my-5' />
                     <img src={wallet} alt="" className='w-[600px] lg:ml-20 mb-10 lg:my-5' />
+                </div>
+                <div className="flex flex-col w-full -mr-8 lg:mr-0 right pb-60">
+                    <img src={metamask} alt="" className='w-[600px] mb-10 lg:mt-10 lg:mb-5 right-20' />
+                    <img src={whizz} alt="" className='w-[600px] lg:ml-20  mb-10 lg:my-5' />
 
                 </div>
             </div>
